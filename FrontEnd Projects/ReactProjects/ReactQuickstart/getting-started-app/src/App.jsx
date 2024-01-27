@@ -45,6 +45,7 @@ function ShoppingList() {
 }
 
 /* responding to events  */
+
 function MyButtonTwo() {
     function handleClick() {
         alert(
@@ -75,6 +76,7 @@ function MyButtonThree() {
 }
 
 /* using hooks now we will be designing counters that update together */
+
 function App() {
     return (
         <div className="App">
