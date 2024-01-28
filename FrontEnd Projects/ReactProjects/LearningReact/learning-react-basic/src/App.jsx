@@ -6,7 +6,9 @@ import TodoList from './TodoList';
 import Avatar from './Avatar';
 import Clock from './Clock';
 import PackingList from './PackingList';
-import RenderingList from '../Components/RenderingLists';
+import RenderingList from './Components/RenderingLists';
+import ToolbarOne from './Components/ToolBarOne';
+import ToolBarTwo from './Components/ToolBarTwo';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
       <Clock />
       <PackingList />
       <RenderingList />
+      <ToolbarOne />
+      <ToolBarTwo />
     </div>
   );
 }
