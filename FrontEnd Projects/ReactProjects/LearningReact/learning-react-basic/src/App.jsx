@@ -2,6 +2,9 @@ import './App.css';
 import Gallery from './Gallery';
 import logo from './logo.svg';
 import { Profile } from './Profile';
+import TodoList from './TodoList';
+import Avatar from './Avatar';
+import Clock from './Clock';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <Gallery />
         <Profile />
       </header>
+      <TodoList />
+      <Avatar />
+      <Clock />
     </div>
   );
 }
