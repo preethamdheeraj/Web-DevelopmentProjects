@@ -5,6 +5,8 @@ import { Profile } from './Profile';
 import TodoList from './TodoList';
 import Avatar from './Avatar';
 import Clock from './Clock';
+import PackingList from './PackingList';
+import RenderingList from '../Components/RenderingLists';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
       <TodoList />
       <Avatar />
       <Clock />
+      <PackingList />
+      <RenderingList />
     </div>
   );
 }
